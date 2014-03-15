@@ -41,7 +41,7 @@ public class DeptFirstSearch3 {
         return failure;
     }
 
-    
+    //hangouby@gmail.com
     //Method that check whether the current position is valid
     private static boolean IsValid(int[] board, int i) {
  
