@@ -50,8 +50,7 @@ public class DeptFirstSearch3 {
                 return false;
         return true;
     }
-	///////////////////////////    
-
+    
     //Method that print board
     private static void PrintBoard(int[] board) {
         System.out.print("   ");
