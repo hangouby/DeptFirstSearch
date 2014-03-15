@@ -40,24 +40,7 @@ public class DeptFirstSearch3 {
         }
         return failure;
     }
-   /* 
-    //method that remove the last queen and return it position
-    private static int[] SeekLastQueen(int[][] board, int i, int j) {
-        int[] a = new int[2];
-        for (int x = i; x >= 0; x--) {
-            for (int y = j; y >= 0; y--) {
-                //seeks the last queen
-                if (board[x][y] != 0) {
-                    //deletes the last queen and returns the position
-                    board[x][y] = 0;
-                    a[0] = x;
-                    a[1] = y;
-                    return a;
-                }
-            }
-        }
-        return a;
-    }*/
+
     
     //Method that check whether the current position is valid
     private static boolean IsValid(int[] board, int i) {
